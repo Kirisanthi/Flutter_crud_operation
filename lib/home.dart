@@ -235,6 +235,9 @@ TextFormField(
       ),
       ),
 
+
+      
+
       SizedBox(
         height:  5,
       ),
@@ -258,7 +261,7 @@ TextFormField(
 
 RaisedButton(
   
-  child: Text('Search'),
+  child: Text('if you need any inventory search here'),
   onPressed: () {
             Navigator.push(
     context,
@@ -269,13 +272,8 @@ RaisedButton(
 
 
 
-
-
-
-
-
     SizedBox(height: 20,),
-    Text("USERS",style: TextStyle(
+    Text("Inventory",style: TextStyle(
     fontSize: 20,
     fontWeight: FontWeight.w900
     ),),

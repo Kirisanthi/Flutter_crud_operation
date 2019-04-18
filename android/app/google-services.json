@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "990117709811",
+    "firebase_url": "https://transport-4b3bb.firebaseio.com",
+    "project_id": "transport-4b3bb",
+    "storage_bucket": "transport-4b3bb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:990117709811:android:fce9768914e45e04",
+        "android_client_info": {
+          "package_name": "com.example.final_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "990117709811-hm0v5c929av5gd9qljc7ehof37nf06vp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2ChEGSw_ouG82Jk8CVkCAJZk4HFp4D98"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "990117709811-hm0v5c929av5gd9qljc7ehof37nf06vp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:990117709811:android:ce5066d0d6407178",
+        "android_client_info": {
+          "package_name": "com.example.office1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "990117709811-hm0v5c929av5gd9qljc7ehof37nf06vp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2ChEGSw_ouG82Jk8CVkCAJZk4HFp4D98"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "990117709811-hm0v5c929av5gd9qljc7ehof37nf06vp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:990117709811:android:4d0f8dddf5e042d7",
+        "android_client_info": {
+          "package_name": "com.example.office2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "990117709811-hm0v5c929av5gd9qljc7ehof37nf06vp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2ChEGSw_ouG82Jk8CVkCAJZk4HFp4D98"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "990117709811-hm0v5c929av5gd9qljc7ehof37nf06vp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

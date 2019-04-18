@@ -1,5 +1,5 @@
 
-//This is sample
+
 import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'user.dart';
@@ -129,16 +129,11 @@ child: Container(
       icon: Icon(Icons.delete),
       onPressed: (){
 delete(user);
-      },
-    ),
+},
+),
     onTap: (){
       setUpdateUI(user);
-          },
-      
-        ),
-      ),
-      );
-      }
+          }, ),),);}
 setUpdateUI(User user){
   controller.text = user.name;
   controller1.text = user.code;
@@ -219,13 +214,12 @@ TextFormField(
         height:  5,
       ),
 
-
-      TextFormField(
-        controller: controller2,
-        decoration: InputDecoration(
-          labelText: "Description",
-          hintText: "Enter description"
-        ),
+ TextFormField(
+      controller: controller2,
+      decoration: InputDecoration(
+      labelText: "Description",
+      hintText: "Enter description"
+      ),
       ),
 
       SizedBox(
@@ -233,12 +227,12 @@ TextFormField(
       ),
 
 
-      TextFormField(
-        controller: controller3,
-        decoration: InputDecoration(
-          labelText: "Price",
-          hintText: "Enter price"
-        ),
+  TextFormField(
+      controller: controller3,
+      decoration: InputDecoration(
+      labelText: "Price",
+      hintText: "Enter price"
+      ),
       ),
 
       SizedBox(
@@ -249,8 +243,8 @@ TextFormField(
       TextFormField(
         controller: controller4,
         decoration: InputDecoration(
-          labelText: "Quantity",
-          hintText: "Enter quantity"
+        labelText: "Quantity",
+        hintText: "Enter quantity"
         ),
       ),
       
@@ -280,17 +274,17 @@ RaisedButton(
 
 
 
-        SizedBox(height: 20,),
-        Text("USERS",style: TextStyle(
-          fontSize: 20,
-          fontWeight: FontWeight.w900
-        ),),
-        SizedBox(height: 20,),
-        Flexible(child: buildBody(context),)
-        ],),
-      ),
-      )
-      ); 
-      }
+    SizedBox(height: 20,),
+    Text("USERS",style: TextStyle(
+    fontSize: 20,
+    fontWeight: FontWeight.w900
+    ),),
+    SizedBox(height: 20,),
+    Flexible(child: buildBody(context),)
+    ],),
+    ),
+    )
+    ); 
+    }
       
 }

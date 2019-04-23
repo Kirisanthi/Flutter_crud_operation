@@ -33,8 +33,7 @@ class _MyHomePageState extends State<MyHomePage> {
       });
     }
 
-    var capitalizedValue =
-        value.substring(0, 1).toUpperCase() + value.substring(1);
+    var capitalizedValue =value.substring(0, 1).toUpperCase() + value.substring(1);
 
     if (queryResultSet.length == 0 && value.length == 1) {
         SearchService().searchByName(value).then((QuerySnapshot docs) {
